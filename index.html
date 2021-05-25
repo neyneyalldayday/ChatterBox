@@ -48,14 +48,14 @@
 
        function getMessages() {
 
-        $.get('https://supfammlie.herokuapp.com//messages', (data) => {
+        $.get('https://supfammlie.herokuapp.com/messages', (data) => {
             data.forEach(addMessage)
         })
        }
 
        function postMessage(message) {
 
-        $.post('https://supfammlie.herokuapp.com//messages', message ) 
+        $.post('https://supfammlie.herokuapp.com/messages', message ) 
            
         
        }
